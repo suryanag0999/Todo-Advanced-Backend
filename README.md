@@ -25,4 +25,32 @@ A fully-featured backend API built with **Node.js**, **Express**, and **MongoDB*
 
 ---
 
-## 📂 Folder Structure
+
+---
+
+## 🧪 API Endpoints
+
+### ✅ Task Endpoints
+
+| Method | Endpoint                | Description                          |
+|--------|-------------------------|--------------------------------------|
+| POST   | `/api/v2/task`          | Create a new task                    |
+| GET    | `/api/v2/tasks`         | Get tasks with filters/sorting       |
+| PUT    | `/api/v2/task/:id`      | Update task details                  |
+| PUT    | `/api/v2/task/:id/labels` | Update task labels                 |
+| PUT    | `/api/v2/task/:id/status` | Update task status                 |
+| DELETE | `/api/v2/task/:id`      | Delete a task                        |
+
+### 🔖 Label Endpoints
+
+| Method | Endpoint        | Description            |
+|--------|-----------------|------------------------|
+| GET    | `/api/v2/labels` | Get all unique labels  |
+
+---
+
+## 🔄 Filtering, Sorting, and Pagination
+
+**Sorting**  
+
+
