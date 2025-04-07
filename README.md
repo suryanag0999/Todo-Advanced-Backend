@@ -43,14 +43,24 @@ A fully-featured backend API built with **Node.js**, **Express**, and **MongoDB*
 
 ### 🔖 Label Endpoints
 
+###Install Dependencies
+npm install
+
 | Method | Endpoint        | Description            |
 |--------|-----------------|------------------------|
 | GET    | `/api/v2/labels` | Get all unique labels  |
 
----
+Set Up MongoDB
+For local development, use MongoDB Compass and create a new database.
 
-## 🔄 Filtering, Sorting, and Pagination
+You can also use MongoDB Atlas for cloud-based hosting.
 
-**Sorting**  
+Update the .env file:
+
+MONGODB_URL=mongodb://localhost:27017/todo-advanced
+# Or for Atlas:
+# MONGODB_URL=mongodb+srv://<username>:<password>@cluster.mongodb.net/todo-advanced
+
+
 
 
