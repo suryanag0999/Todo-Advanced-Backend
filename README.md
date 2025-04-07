@@ -61,6 +61,11 @@ MONGODB_URL=mongodb://localhost:27017/todo-advanced
 # Or for Atlas:
 # MONGODB_URL=mongodb+srv://<username>:<password>@cluster.mongodb.net/todo-advanced
 
+📬 Postman Collection
+You can use tools like Postman or Thunder Client for testing the APIs.
+
+
+
 
 
 
